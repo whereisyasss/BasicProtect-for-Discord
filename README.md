@@ -41,6 +41,8 @@
 
 *If there is any bugs/issues with the script, I invite you to contact me by Discord => Zitiix#2022*
 
+##### The only condition to use my code is to star the repository and add my credits in your code (at least in the footer of the embed)
+
 ---
 <br />
 
