@@ -12,7 +12,7 @@
 <br />
 <br />
 
-> ⚠️ **READ THIS : It works only for Discord Bots, this is a system that, when turned "on", Prevents a user from creating a new channel, deleting a channel, editing a channel, creating a role, deleting a role, editing a role or even sending a link such as discord.gg or https://arandomlink.com and which prevents webhook creation from every users that are not whitelisted of the bot** ⚠️
+> ⚠️ **READ THIS : It works only for Discord Bots, this is a system that, when turned "on", Prevents a user from creating a new channel, deleting a channel, editing a channel, creating a role, deleting a role, editing a role or even sending a link such as discord.gg or https://arandomlink.com and which prevents webhook creation from every users that are not whitelisted of the bot by deleting all his roles so he can't do it again without your permission.** ⚠️
 <br />
 
 ---
