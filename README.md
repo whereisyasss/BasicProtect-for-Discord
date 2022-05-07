@@ -20,18 +20,19 @@
 ## __How to use it ❓__
 
 ### It's really that easy, first you go to config.json
-
 ```json
 {
-    "TOKEN": "YOUR_SECRET_BOT_TOKEN",
-    "DEFAULT_COLOR": "#YOUR_COLOR",
-    "DEFAULT_PREFIX": "YOUR_PREFIX"
+    "TOKEN": "",
+    "DEFAULT_COLOR": "",
+    "DEFAULT_PREFIX": "",
+    "OWNER_ID": ""
 }
 ```
 ``If there is no problem, you'll see this, then you replace "TOKEN" by your bot token that you generated, "DEFAULT_COLOR" by the color you want (example: #ffffff => white) and "DEFAULT_PREFIX" the prefix you want, don't forget those details : ``
 - The token is required for your bot in order to make him log in and works
 - The color is required for embed
 - The prefix is required for your bot in order to make him work
+- You need to give the bot your id 
 
 ### Then if everything is ok, you can run packages.bat to install all the required packages if you haven't installed them yet and then you can start the bot by using start.bat
 <br />
