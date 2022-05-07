@@ -1,5 +1,5 @@
 const db = require('quick.db');
-const { DEFAULT_PREFIX } = require('../../config.json');
+const { DEFAULT_PREFIX, OWNER_ID } = require('../../config.json');
 const { Embed } = require('../../build/functions');
 let prefix = ''
 
@@ -10,7 +10,7 @@ module.exports.run = async (client, message, args) => {
     if (prefix == undefined || prefix == null) prefix = DEFAULT_PREFIX
 
     if (!message.author) return
-    if (message.author.id !== message.guild.ownerId) return Embed(message.author, `${emoji.Warning} Désolé **${message.author.username}** vous devez être le propriétaire du serveur pour utiliser cette commande.`, message.channel, '')
+    if (message.author.id !== OWNER_ID) return Embed(message.author, `Sorry **${message.author.username}** you must be the owner of the server to use this command.`, message.channel, '')
     
     let whitelist = await db.get(`config.${message.guild.id}.whitelist`)
     let msg = ''
@@ -45,7 +45,7 @@ module.exports.run = async (client, message, args) => {
                             message.delete();
                             if (whitelist !== undefined || whitelist !== null) 
                             {
-                                whitelist = Object?.keys(whitelist)
+                                whitelist = Object?.keys(whitelist) // issue
                                 if (whitelist.includes(user)) return Embed(message.author, `This person is already in the whitelist of the server.`, message.channel, '')
                             }
                             db.set(`config.${message.guild.id}.whitelist.${user}`, true)
