@@ -27,11 +27,5 @@ module.exports = async (client, channel) => {
             }
         }
     }
-    // y'a un soucis?
-    //hmm j'pense ça peut passer 
-    // ici non, les commandes oui
-    // regarde antichannelcreate tu va comprendre
-    // ton event il va punir que les non wl, c'est normal, donc l'owner du bot doit être le seul à pouvoir modifier l'état du bot
-    // dis moi si t'as compris ce que je veux dire
 }
         
