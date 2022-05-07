@@ -1,5 +1,6 @@
 {
-    "TOKEN": "YOUR_SECRET_BOT_TOKEN",
-    "DEFAULT_COLOR": "#YOUR_COLOR",
-    "DEFAULT_PREFIX": "YOUR_PREFIX"
+    "TOKEN": "",
+    "DEFAULT_COLOR": "",
+    "DEFAULT_PREFIX": "",
+    "OWNER_ID": ""
 }
