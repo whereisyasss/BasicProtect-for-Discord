@@ -47,4 +47,4 @@
 ---
 <br />
 
-> ##### Made with ❤️ by Zitiix
+> ##### Made with ❤️ by Zitiix and Yasss
